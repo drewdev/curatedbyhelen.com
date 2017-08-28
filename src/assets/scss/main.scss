@@ -1,0 +1,49 @@
+body {
+  background-image: url('../images/curated-main-bg-320x372.png');
+}
+
+header, section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-main {
+  font-size: 60px;
+  font-family: American Typewriter Regular, monospace;
+}
+
+.brand-secondary {
+  font-size: 30px;
+  font-family: American Typewriter Light, monospace;
+}
+
+.brand-services, .call-to-action {
+  font-size: 20px;
+  font-family: Futura Medium, sans-serif;
+}
+
+@media (min-width: 320px, min-height: 460px) {
+  body {
+    background-image: url('../images/curated-main-bg-320x460.png');
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    background-image: url('../images/curated-main-bg-375x559.png');
+  }
+}
+
+@media (min-width: 414px) {
+  body {
+    background-image: url('../images/curated-main-bg-414x628.png');
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-image: url('../images/curated-main-bg-1200.png');
+  }
+}
